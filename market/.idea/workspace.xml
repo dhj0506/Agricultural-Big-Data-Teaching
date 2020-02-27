@@ -3,10 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="4c755e71-f71a-4ece-b4bb-2163dc971fbf" name="默认更改列表" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/seu/market/MarketApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/seu/market/MarketApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/seu/market/view/JspController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/seu/market/view/JspController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/jsp/hello.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/jsp/hello.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/seu/market/view/JspController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/edu/seu/market/view/JspController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/market.iml" beforeDir="false" afterPath="$PROJECT_DIR$/market.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/cn/edu/seu/market/util/CodeGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/cn/edu/seu/market/util/CodeGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/html/index-old.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/market.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/cn/edu/seu/market/util/CodeGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/cn/edu/seu/market/util/CodeGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/html/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/html/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,9 +19,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Jsp File" />
         <option value="HTML File" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -41,22 +44,37 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/cn/edu/seu/market" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/static/html" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\MyCode\Agricultural-Big-Data-Teaching\market\src\main\resources\static\html" />
+      <recent name="F:\MyCode\Agricultural-Big-Data-Teaching\market\src\main\webapp\jsp\admin" />
       <recent name="F:\MyCode\Agricultural-Big-Data-Teaching\market\src\main\java\cn\edu\seu\market" />
       <recent name="F:\MyCode\Agricultural-Big-Data-Teaching\market\src\main\resources" />
       <recent name="F:\MyCode\Agricultural-Big-Data-Teaching\market\src\test\java\cn\edu\seu\market\user" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.MarketApplication">
+    <configuration name="CodeGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cn.edu.seu.market.util.CodeGenerator" />
+      <module name="market" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.edu.seu.market.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MarketApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="market" />
       <extension name="coverage">
@@ -113,6 +131,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CodeGenerator" />
         <item itemvalue="JUnit.UserService" />
         <item itemvalue="JUnit.MarketApplicationTests.contextLoads" />
         <item itemvalue="JUnit.UserService.countUser" />
@@ -133,6 +152,7 @@
       <workItem from="1582687775703" duration="2617000" />
       <workItem from="1582696705330" duration="7819000" />
       <workItem from="1582764135909" duration="8126000" />
+      <workItem from="1582783661532" duration="18420000" />
     </task>
     <servers />
   </component>
@@ -140,6 +160,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="547" y="157" key="#Chrome_Settings" timestamp="1582814696073">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="547" y="157" key="#Chrome_Settings/0.0.1920.1032@0.0.1920.1032" timestamp="1582814696073" />
     <state x="450" y="37" key="#Custom_Plugin_Repositories" timestamp="1582764800265">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
@@ -164,58 +188,74 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="641" y="68" key="#更新/0.0.1920.1032@0.0.1920.1032" timestamp="1582702719297" />
-    <state x="708" y="196" key="FileChooserDialogImpl" timestamp="1582690219532">
+    <state x="659" y="186" key="FileChooserDialogImpl" timestamp="1582814504473">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="708" y="196" key="FileChooserDialogImpl/0.0.1920.1032@0.0.1920.1032" timestamp="1582690219532" />
-    <state width="1864" height="321" key="GridCell.Tab.0.bottom" timestamp="1582776451413">
+    <state x="659" y="186" key="FileChooserDialogImpl/0.0.1920.1032@0.0.1920.1032" timestamp="1582814504473" />
+    <state width="1864" height="321" key="GridCell.Tab.0.bottom" timestamp="1582816379363">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1864" height="321" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1582776451413" />
-    <state width="1864" height="321" key="GridCell.Tab.0.center" timestamp="1582776451413">
+    <state width="1864" height="321" key="GridCell.Tab.0.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1582816379363" />
+    <state width="1864" height="321" key="GridCell.Tab.0.center" timestamp="1582816379362">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1864" height="321" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1582776451413" />
-    <state width="1864" height="321" key="GridCell.Tab.0.left" timestamp="1582776451412">
+    <state width="1864" height="321" key="GridCell.Tab.0.center/0.0.1920.1032@0.0.1920.1032" timestamp="1582816379362" />
+    <state width="1864" height="321" key="GridCell.Tab.0.left" timestamp="1582816379362">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1864" height="321" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1582776451412" />
-    <state width="1864" height="321" key="GridCell.Tab.0.right" timestamp="1582776451413">
+    <state width="1864" height="321" key="GridCell.Tab.0.left/0.0.1920.1032@0.0.1920.1032" timestamp="1582816379362" />
+    <state width="1864" height="321" key="GridCell.Tab.0.right" timestamp="1582816379362">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1864" height="321" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1582776451413" />
-    <state width="1864" height="321" key="GridCell.Tab.1.bottom" timestamp="1582776451413">
+    <state width="1864" height="321" key="GridCell.Tab.0.right/0.0.1920.1032@0.0.1920.1032" timestamp="1582816379362" />
+    <state width="1864" height="321" key="GridCell.Tab.1.bottom" timestamp="1582816379363">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1864" height="321" key="GridCell.Tab.1.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1582776451413" />
-    <state width="1864" height="321" key="GridCell.Tab.1.center" timestamp="1582776451413">
+    <state width="1864" height="321" key="GridCell.Tab.1.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1582816379363" />
+    <state width="1864" height="321" key="GridCell.Tab.1.center" timestamp="1582816379363">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1864" height="321" key="GridCell.Tab.1.center/0.0.1920.1032@0.0.1920.1032" timestamp="1582776451413" />
-    <state width="1864" height="321" key="GridCell.Tab.1.left" timestamp="1582776451413">
+    <state width="1864" height="321" key="GridCell.Tab.1.center/0.0.1920.1032@0.0.1920.1032" timestamp="1582816379363" />
+    <state width="1864" height="321" key="GridCell.Tab.1.left" timestamp="1582816379363">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1864" height="321" key="GridCell.Tab.1.left/0.0.1920.1032@0.0.1920.1032" timestamp="1582776451413" />
-    <state width="1864" height="321" key="GridCell.Tab.1.right" timestamp="1582776451413">
+    <state width="1864" height="321" key="GridCell.Tab.1.left/0.0.1920.1032@0.0.1920.1032" timestamp="1582816379363" />
+    <state width="1864" height="321" key="GridCell.Tab.1.right" timestamp="1582816379363">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state width="1864" height="321" key="GridCell.Tab.1.right/0.0.1920.1032@0.0.1920.1032" timestamp="1582776451413" />
+    <state width="1864" height="321" key="GridCell.Tab.1.right/0.0.1920.1032@0.0.1920.1032" timestamp="1582816379363" />
+    <state width="1864" height="321" key="GridCell.Tab.2.bottom" timestamp="1582816379363">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1864" height="321" key="GridCell.Tab.2.bottom/0.0.1920.1032@0.0.1920.1032" timestamp="1582816379363" />
+    <state width="1864" height="321" key="GridCell.Tab.2.center" timestamp="1582816379363">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1864" height="321" key="GridCell.Tab.2.center/0.0.1920.1032@0.0.1920.1032" timestamp="1582816379363" />
+    <state width="1864" height="321" key="GridCell.Tab.2.left" timestamp="1582816379363">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1864" height="321" key="GridCell.Tab.2.left/0.0.1920.1032@0.0.1920.1032" timestamp="1582816379363" />
+    <state width="1864" height="321" key="GridCell.Tab.2.right" timestamp="1582816379363">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state width="1864" height="321" key="GridCell.Tab.2.right/0.0.1920.1032@0.0.1920.1032" timestamp="1582816379363" />
     <state x="436" y="188" key="IDE.errors.dialog" timestamp="1582702593107">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="436" y="188" key="IDE.errors.dialog/0.0.1920.1032@0.0.1920.1032" timestamp="1582702593107" />
-    <state x="339" y="0" key="SettingsEditor" timestamp="1582764801443">
+    <state x="339" y="0" key="SettingsEditor" timestamp="1582814696815">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="339" y="0" key="SettingsEditor/0.0.1920.1032@0.0.1920.1032" timestamp="1582764801443" />
-    <state x="598" y="300" key="com.intellij.ide.util.TipDialog" timestamp="1582764137516">
+    <state x="339" y="0" key="SettingsEditor/0.0.1920.1032@0.0.1920.1032" timestamp="1582814696815" />
+    <state x="598" y="300" key="com.intellij.ide.util.TipDialog" timestamp="1582783664313">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="598" y="300" key="com.intellij.ide.util.TipDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1582764137516" />
-    <state x="573" y="210" width="773" height="612" key="find.popup" timestamp="1582775693967">
+    <state x="598" y="300" key="com.intellij.ide.util.TipDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1582783664313" />
+    <state x="573" y="210" width="773" height="612" key="find.popup" timestamp="1582812528656">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="573" y="210" width="773" height="612" key="find.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1582775693967" />
+    <state x="573" y="210" width="773" height="612" key="find.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1582812528656" />
     <state x="531" y="227" key="run.anything.popup" timestamp="1582700359114">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>

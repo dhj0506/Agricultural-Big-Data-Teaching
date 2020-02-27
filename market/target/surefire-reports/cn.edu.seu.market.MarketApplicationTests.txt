@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: cn.edu.seu.market.MarketApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.996 s - in cn.edu.seu.market.MarketApplicationTests
