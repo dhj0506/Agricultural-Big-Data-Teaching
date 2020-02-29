@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="zh-CN" style="height: 100%">
+<head>
+    <meta charset="UTF-8">
+    <title>中国各省份人口热力图</title>
+</head>
+<body style="height: 100%; margin: 0">
+<div id="container" style="height: 100%"></div>
+<script src="https://cdn.jsdelivr.net/npm/vue@2.6.11"></script>
+<script src="https://cdn.jsdelivr.net/npm/axios@0.19.2/dist/axios.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/echarts/dist/echarts.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/echarts/dist/extension/bmap.min.js"></script>
+<script src="https://api.map.baidu.com/api?v=2.0&ak=LH1Uuri2ggNeFGftxqETQvpRzsQlKBA4&__ec_v__=20190126"></script>
+<script>
+    new Vue({
+        el: '#container',
+        data() {
+            return {
+                data: null
+            }
+        },
+        mounted() {
+            const instance = axios({
+                post: 'get',
+                url: 'http://localhost:8081/people/data'
+            });
+
+            instance.then(function (response) {
+                let data = response.data;
+                console.log(data);
+                console.log(typeof data);
+                let provList = [];
+                for (i = 0; i < data.length; i++) {
+                    let temp_data = [];
+                    temp_data.push(data[i].province);
+                    if (data[i].population < 2400) {
+                        temp_data.push("#BA933B");
+                    } else if (data[i].population < 4800) {
+                        temp_data.push("#D28739");
+                    } else if (data[i].population < 7200) {
+                        temp_data.push("#EA7A36");
+                    } else if (data[i].population < 9600) {
+                        temp_data.push("#E25422");
+                    } else {
+                        temp_data.push("#A3220B");
+                    }
+                    provList.push(temp_data)
+                }
+
+                var bmapCharts = echarts.init(document.getElementById('container'));
+
+                var option = {
+                    bmap: {
+                        center: [104.114129, 37.550339],
+                        zoom: 5,
+                        roam: true,
+                    },
+                    title: {
+                        text: '中国各省份人口热力图',
+                        subtext: '根据2018年各省人口数量',
+                        sublink: 'http://data.stats.gov.cn/',
+                        left: 'center',
+                        textStyle: {
+                            color: '#424242'
+                        }
+                    },
+                    tooltip: {
+                        trigger: 'item'
+                    },
+                };
+
+                if (option && typeof option === "object") {
+                    bmapCharts.setOption(option, true);
+                }
+
+                var map = bmapCharts.getModel().getComponent('bmap').getBMap();
+
+                map.centerAndZoom("兰州", 5); //取兰州作为中心点
+
+                map.addControl(new BMap.NavigationControl()); // 缩放控件
+                map.addControl(new BMap.ScaleControl()); // 比例尺
+                map.enableScrollWheelZoom();
+
+                function getBoundary(provItem) {
+                    // console.log(provItem);
+                    var bdary = new BMap.Boundary();
+                    bdary.get(provItem[0], function (rs) {       //获取行政区域
+                        var count = rs.boundaries.length; //行政区域的点有多少个
+                        if (count === 0) {
+                            return;
+                        }
+                        var pointArray = [];
+                        for (var i = 0; i < count; i++) {
+                            let ply = new BMap.Polygon(rs.boundaries[i], {
+                                strokeWeight: 1,
+                                strokeColor: "#aaaaaa",
+                                fillColor: provItem[1]
+                            }); //建立多边形覆盖物
+                            map.addOverlay(ply);  //添加覆盖物
+                            pointArray = pointArray.concat(ply.getPath());
+                        }
+                    });
+                }
+
+                setTimeout(function () {
+                    provList.forEach(function (item) {
+                        getBoundary(item);
+                    });
+                }, 20);
+            })
+        }
+    })
+
+
+</script>
+</body>
+</html>
