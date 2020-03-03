@@ -2,16 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4c755e71-f71a-4ece-b4bb-2163dc971fbf" name="默认更改列表" comment="">
+      <change afterPath="$PROJECT_DIR$/../javahdfs/javahdfs.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/market-0.0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/market-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-cn.edu.seu.market.MarketApplicationTests.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/cn.edu.seu.market.MarketApplicationTests.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +36,7 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/static/html" />
@@ -159,6 +152,7 @@
       <workItem from="1582896419092" duration="5167000" />
       <workItem from="1582962632559" duration="713000" />
       <workItem from="1582969932733" duration="60000" />
+      <workItem from="1583119544896" duration="264000" />
     </task>
     <servers />
   </component>
@@ -194,10 +188,10 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="641" y="68" key="#更新/0.0.1920.1032@0.0.1920.1032" timestamp="1582702719297" />
-    <state x="659" y="186" key="FileChooserDialogImpl" timestamp="1582814504473">
+    <state x="731" y="179" key="FileChooserDialogImpl" timestamp="1583119628284">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="659" y="186" key="FileChooserDialogImpl/0.0.1920.1032@0.0.1920.1032" timestamp="1582814504473" />
+    <state x="731" y="179" key="FileChooserDialogImpl/0.0.1920.1032@0.0.1920.1032" timestamp="1583119628284" />
     <state width="1864" height="259" key="GridCell.Tab.0.bottom" timestamp="1582963349686">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
@@ -254,14 +248,18 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="339" y="0" key="SettingsEditor/0.0.1920.1032@0.0.1920.1032" timestamp="1582962922770" />
-    <state x="598" y="300" key="com.intellij.ide.util.TipDialog" timestamp="1582969932746">
+    <state x="598" y="300" key="com.intellij.ide.util.TipDialog" timestamp="1583119544980">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="598" y="300" key="com.intellij.ide.util.TipDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1582969932746" />
+    <state x="598" y="300" key="com.intellij.ide.util.TipDialog/0.0.1920.1032@0.0.1920.1032" timestamp="1583119544980" />
     <state x="573" y="210" width="773" height="612" key="find.popup" timestamp="1582812528656">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="573" y="210" width="773" height="612" key="find.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1582812528656" />
+    <state x="269" y="227" key="new project wizard" timestamp="1583119736383">
+      <screen x="0" y="0" width="1920" height="1032" />
+    </state>
+    <state x="269" y="227" key="new project wizard/0.0.1920.1032@0.0.1920.1032" timestamp="1583119736383" />
     <state x="531" y="227" key="run.anything.popup" timestamp="1582700359114">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
